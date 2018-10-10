@@ -1,18 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Lora');
-
-*,
-*:before,
-*:after{
+*, *:before, *:after {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-body{
+body {
   background: indigo;
 }
 
-.menu{
+.menu {
   width: 60px;
   height: 60px;
   background: white;
@@ -22,7 +19,7 @@ body{
   right: 25px;
 }
 
-.hamburguer{
+.hamburguer {
   position: relative;
   display: block;
   background: black;
@@ -30,21 +27,41 @@ body{
   height: 2px;
   top: 30px;
   left: 15px;
+  transition: .5s ease-in-out;
 }
 
-.hamburguer:before,
-.hamburguer:after{
+.hamburguer:before, .hamburguer:after {
   background: black;
   content: '';
   display: block;
   width: 100%;
   height: 100%;
   position: absolute;
+  transition: .5s ease-in-out;
 }
 
-.hamburguer:before{
+.hamburguer:before {
   top: -10px;
 }
-.hamburguer:after{
-  top: 10px;
+
+.hamburguer:after {
+  bottom: -10px;
+}
+
+#menu-hamburguer {
+  display: none;
+}
+
+#menu-hamburguer:checked ~ label .hamburguer {
+  transform: rotate(45deg);
+}
+
+#menu-hamburguer:checked ~ label .hamburguer:before {
+  transform: rotate(90deg);
+  top: 0;
+}
+
+#menu-hamburguer:checked ~ label .hamburguer:after {
+  transform: rotate(90deg);
+  bottom: 0;
 }
