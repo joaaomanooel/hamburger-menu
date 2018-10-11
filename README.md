@@ -1,5 +1,5 @@
 # Hamburguer Menu
-## hamburger menu with pure CSS :hamburger:
+### hamburger menu with pure CSS :hamburger:
 
 ## Contributing
 
