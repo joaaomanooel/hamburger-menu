@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Lora");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
 
 *,
 *:before,
@@ -34,7 +34,7 @@ body {
     rgba(242, 136, 164, 1) 98%
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d96c80",endColorstr="#f288a4",GradientType=1);
-  font-family: "Lora", serif;
+  font-family: "Roboto", serif;
   color: #fafafa;
 }
 
@@ -81,11 +81,38 @@ ul {
 }
 
 a {
+  font-family: 'Roboto', sans-serif;
   display: block;
   margin-bottom: 40px;
   font-size: 47px;
   text-decoration: none;
-  color: rgba(217, 108, 128, 1);
+  background: rgb(217, 108, 128);
+  background: -moz-linear-gradient(
+    135deg,
+    rgba(217, 108, 128, 1) 0%,
+    rgba(242, 133, 153, 1) 35%,
+    rgba(242, 148, 165, 1) 71%,
+    rgba(242, 162, 177, 1) 89%,
+    rgba(242, 136, 164, 1) 98%
+  );
+  background: -webkit-linear-gradient(
+    135deg,
+    rgba(217, 108, 128, 1) 0%,
+    rgba(242, 133, 153, 1) 35%,
+    rgba(242, 148, 165, 1) 71%,
+    rgba(242, 162, 177, 1) 89%,
+    rgba(242, 136, 164, 1) 98%
+  );
+  background: linear-gradient(
+    135deg,
+    rgba(217, 108, 128, 1) 0%,
+    rgba(242, 133, 153, 1) 35%,
+    rgba(242, 148, 165, 1) 71%,
+    rgba(242, 162, 177, 1) 89%,
+    rgba(242, 136, 164, 1) 98%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 /** ICON  **/
