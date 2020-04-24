@@ -82,6 +82,8 @@ ul {
 
 a {
   font-family: 'Roboto', sans-serif;
+  align-self: center;
+  text-align: center;
   display: block;
   margin-bottom: 40px;
   font-size: 47px;
