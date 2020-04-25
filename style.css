@@ -104,30 +104,9 @@ a {
   font-size: 47px;
   text-decoration: none;
   background: rgb(217, 108, 128);
-  background: -moz-linear-gradient(
-    45deg,
-    rgba(217, 108, 128, 1),
-    rgba(242, 133, 153, 1),
-    rgba(242, 148, 165, 1),
-    rgba(242, 162, 177, 1),
-    rgba(242, 136, 164, 1)
-  );
-  background: -webkit-linear-gradient(
-    45deg,
-    rgba(217, 108, 128, 1),
-    rgba(242, 133, 153, 1),
-    rgba(242, 148, 165, 1),
-    rgba(242, 162, 177, 1),
-    rgba(242, 136, 164, 1)
-  );
-  background: linear-gradient(
-    45deg,
-    rgba(217, 108, 128, 1),
-    rgba(242, 133, 153, 1),
-    rgba(242, 148, 165, 1),
-    rgba(242, 162, 177, 1),
-    rgba(242, 136, 164, 1)
-  );
+  background: -moz-linear-gradient(45deg, rgba(217, 108, 128, 1), rgba(242, 136, 164, 1));
+  background: -webkit-linear-gradient(45deg, rgba(217, 108, 128, 1), rgba(242, 136, 164, 1));
+  background: linear-gradient(45deg, rgba(217, 108, 128, 1), rgba(242, 136, 164, 1));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
