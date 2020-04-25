@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap");
 
 *,
 *:before,
@@ -10,32 +10,47 @@
 body {
   background: rgb(217, 108, 128);
   background: -moz-linear-gradient(
-    135deg,
-    rgba(217, 108, 128, 1) 0%,
-    rgba(242, 133, 153, 1) 35%,
-    rgba(242, 148, 165, 1) 71%,
-    rgba(242, 162, 177, 1) 89%,
-    rgba(242, 136, 164, 1) 98%
+    45deg,
+    rgba(217, 108, 128, 1),
+    rgba(242, 133, 153, 1),
+    rgba(242, 148, 165, 1),
+    rgba(242, 162, 177, 1),
+    rgba(242, 136, 164, 1)
   );
   background: -webkit-linear-gradient(
-    135deg,
-    rgba(217, 108, 128, 1) 0%,
-    rgba(242, 133, 153, 1) 35%,
-    rgba(242, 148, 165, 1) 71%,
-    rgba(242, 162, 177, 1) 89%,
-    rgba(242, 136, 164, 1) 98%
+    45deg,
+    rgba(217, 108, 128, 1),
+    rgba(242, 133, 153, 1),
+    rgba(242, 148, 165, 1),
+    rgba(242, 162, 177, 1),
+    rgba(242, 136, 164, 1)
   );
   background: linear-gradient(
-    135deg,
-    rgba(217, 108, 128, 1) 0%,
-    rgba(242, 133, 153, 1) 35%,
-    rgba(242, 148, 165, 1) 71%,
-    rgba(242, 162, 177, 1) 89%,
-    rgba(242, 136, 164, 1) 98%
+    45deg,
+    rgba(217, 108, 128, 1),
+    rgba(242, 133, 153, 1),
+    rgba(242, 148, 165, 1),
+    rgba(242, 162, 177, 1),
+    rgba(242, 136, 164, 1)
   );
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d96c80",endColorstr="#f288a4",GradientType=1);
   font-family: "Roboto", serif;
   color: #fafafa;
+  background-size: 450% 450%;
+  animation: colors 10s infinite ease;
+}
+
+/* Animations */
+@keyframes colors {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
 }
 
 /** MENU **/
@@ -81,7 +96,7 @@ ul {
 }
 
 a {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   align-self: center;
   text-align: center;
   display: block;
@@ -90,28 +105,28 @@ a {
   text-decoration: none;
   background: rgb(217, 108, 128);
   background: -moz-linear-gradient(
-    135deg,
-    rgba(217, 108, 128, 1) 0%,
-    rgba(242, 133, 153, 1) 35%,
-    rgba(242, 148, 165, 1) 71%,
-    rgba(242, 162, 177, 1) 89%,
-    rgba(242, 136, 164, 1) 98%
+    45deg,
+    rgba(217, 108, 128, 1),
+    rgba(242, 133, 153, 1),
+    rgba(242, 148, 165, 1),
+    rgba(242, 162, 177, 1),
+    rgba(242, 136, 164, 1)
   );
   background: -webkit-linear-gradient(
-    135deg,
-    rgba(217, 108, 128, 1) 0%,
-    rgba(242, 133, 153, 1) 35%,
-    rgba(242, 148, 165, 1) 71%,
-    rgba(242, 162, 177, 1) 89%,
-    rgba(242, 136, 164, 1) 98%
+    45deg,
+    rgba(217, 108, 128, 1),
+    rgba(242, 133, 153, 1),
+    rgba(242, 148, 165, 1),
+    rgba(242, 162, 177, 1),
+    rgba(242, 136, 164, 1)
   );
   background: linear-gradient(
-    135deg,
-    rgba(217, 108, 128, 1) 0%,
-    rgba(242, 133, 153, 1) 35%,
-    rgba(242, 148, 165, 1) 71%,
-    rgba(242, 162, 177, 1) 89%,
-    rgba(242, 136, 164, 1) 98%
+    45deg,
+    rgba(217, 108, 128, 1),
+    rgba(242, 133, 153, 1),
+    rgba(242, 148, 165, 1),
+    rgba(242, 162, 177, 1),
+    rgba(242, 136, 164, 1)
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
