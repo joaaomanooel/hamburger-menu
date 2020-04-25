@@ -8,6 +8,7 @@
 }
 
 body {
+  margin: 0;
   background: rgb(217, 108, 128);
   background: -moz-linear-gradient(
     45deg,
@@ -37,7 +38,7 @@ body {
   font-family: "Roboto", serif;
   color: #fafafa;
   background-size: 450% 450%;
-  animation: colors 10s infinite ease;
+  animation: colors 8s infinite ease;
 }
 
 /* Animations */
@@ -50,6 +51,15 @@ body {
   }
   100% {
     background-position: 0% 50%;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
   }
 }
 
@@ -97,8 +107,8 @@ body {
 }
 
 #menu-hamburguer:checked ~ ul {
-  opacity: 1;
   display: inherit;
+  animation: 0.7s fadeIn ease-in-out;
 }
 
 ul {
@@ -108,7 +118,6 @@ ul {
   transform: translate(-50%, -50%);
   list-style: none;
   display: none;
-  transition: 1s ease-in-out;
 }
 
 a {
